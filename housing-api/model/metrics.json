@@ -1,0 +1,44 @@
+{
+  "model_type": "LinearRegression",
+  "trained_at": "2026-08-12T14:06:03.769250+00:00",
+  "n_samples": 50,
+  "n_train": 40,
+  "n_test": 10,
+  "features": [
+    "square_footage",
+    "bedrooms",
+    "bathrooms",
+    "year_built",
+    "lot_size",
+    "distance_to_city_center",
+    "school_rating"
+  ],
+  "target": "price",
+  "coefficients": {
+    "square_footage": -74386.90070750573,
+    "bedrooms": -5764.347493572379,
+    "bathrooms": 718.9627214285641,
+    "year_built": 22387.22011424058,
+    "lot_size": 78564.09371911857,
+    "distance_to_city_center": 37930.13162703539,
+    "school_rating": 20169.27154375723
+  },
+  "intercept": 270374.99999999994,
+  "test_metrics": {
+    "rmse": 10277.047971061076,
+    "mae": 7916.19806209022,
+    "r2_score": 0.9811236825880004
+  },
+  "cross_validation": {
+    "cv_folds": 5,
+    "r2_mean": 0.9858655448284169,
+    "r2_std": 0.014162765991575427,
+    "r2_scores": [
+      0.9580639403178548,
+      0.9889986520190701,
+      0.9931320567788903,
+      0.9917418795422112,
+      0.9973911954840581
+    ]
+  }
+}
